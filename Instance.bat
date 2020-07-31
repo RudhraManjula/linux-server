@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-081afb283b98a8548 --count 1 --instance-type t2.micro --key-name Manjulakey --security-groups MySecurityGroup --region us-east-1
